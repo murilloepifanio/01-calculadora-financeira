@@ -1,4 +1,8 @@
+"""Calculadora financeira interativa para operações básicas no terminal."""
+
+
 def calcula_valor_compra():
+    """Solicita preço e quantidade e exibe o valor total da compra."""
     valor = float(input('Informe o valor do item: '))
     quantidade = int(input('Informe a quantidade comprada: '))
 
@@ -9,6 +13,7 @@ def calcula_valor_compra():
 
 
 def calcula_desconto():
+    """Solicita preço e desconto percentual e exibe o preço final."""
     valor = float(input('Informe o valor do item: '))
     desconto = float(input('Informe o valor do desconto: '))
 
@@ -21,6 +26,7 @@ def calcula_desconto():
 
 
 def calcula_aumento():
+    """Solicita preço e aumento percentual e exibe o preço reajustado."""
     valor = float(input('Informe o valor do item: '))
     aumento = float(input('Informe o valor do aumento: '))
 
@@ -33,6 +39,7 @@ def calcula_aumento():
 
 
 def calcula_lucro():
+    """Solicita custo e preço de venda e informa lucro ou prejuízo."""
     custo_producao = float(input('Informe o custo de produção: '))
     valor_venda = float(input('Informe o valor de venda: '))
 
@@ -47,6 +54,7 @@ def calcula_lucro():
 
 
 def calcula_margem_lucro():
+    """Calcula e exibe a margem sobre o preço de venda, em porcentagem."""
     custo_producao = float(input('Informe o custo de produção: '))
     valor_venda = float(input('Informe o valor de venda: '))
 
@@ -63,6 +71,7 @@ def calcula_margem_lucro():
 
 
 def somar_despesas(*despesas: float):
+    """Soma valores de despesas recebidos como argumentos e exibe o total."""
     total = 0
 
     for despesa in despesas:
@@ -72,6 +81,7 @@ def somar_despesas(*despesas: float):
 
 
 def resumo_financeiro():
+    """Solicita receitas e despesas e exibe o saldo financeiro."""
     receitas = float(input('Informe sua receita: '))
     despesas = float(input('Informe suas despesas: '))
 
@@ -87,6 +97,7 @@ def resumo_financeiro():
 
 
 def menu():
+    """Exibe o menu interativo e executa a operação selecionada."""
 
     opcao = -1
 

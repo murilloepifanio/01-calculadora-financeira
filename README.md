@@ -36,6 +36,13 @@ Durante o desenvolvimento foram utilizados:
 
 É necessário ter Python instalado.
 
+Clone o repositório e acesse a pasta do projeto:
+
+```bash
+git clone https://github.com/murilloepifanio/01-calculadora-financeira.git
+cd 01-calculadora-financeira
+```
+
 Execute o arquivo:
 
 ```bash

@@ -40,3 +40,8 @@ Execute o arquivo:
 
 ```bash
 python calculadora.py
+```
+
+## Autor
+
+Murillo Epifânio de Almeida.

@@ -44,4 +44,4 @@ python calculadora.py
 
 ## Autor
 
-Murillo Epifânio de Almeida.
+Murillo Epifânio Rodrigues de Almeida.
